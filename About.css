@@ -1,0 +1,80 @@
+/* Set default font family and color */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #444;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #FDB813;
+    color: #210656;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  main{
+    background-image: url("./Images/bg1.png");
+  }
+  
+  /* Style the navigation links */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #19063d;
+    color: #FFF;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #FDB813;
+    color: #1a023a;
+  }
+  
+  /* Style the main content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  li:before {
+    content: '\2022';
+    color: #FDB813;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #180138;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
